@@ -7,6 +7,7 @@ import ReducerTutorial from './ReducerTutorial';
 import EffectTutorial from './EffectTutorial';
 import RefTutorial from './RefTutorial';
 import LayoutEffectTutorial from './LayoutEffectTutorial';
+import ImperativeHandle from './ButtonTutorial/ImperativeHandle';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,8 +16,9 @@ root.render(
     {/* <App />
     <ReducerTutorial />
     <EffectTutorial />
-    <RefTutorial /> */}
-    <LayoutEffectTutorial />
+    <RefTutorial />
+    <LayoutEffectTutorial /> */}
+    <ImperativeHandle />
   </React.StrictMode>
 );
 
