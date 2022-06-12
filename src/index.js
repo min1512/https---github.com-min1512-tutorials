@@ -4,12 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ReducerTutorial from './ReducerTutorial';
+import EffectTutorial from './EffectTutorial';
+import RefTutorial from './RefTutorial';
+import LayoutEffectTutorial from './LayoutEffectTutorial';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App />
     <ReducerTutorial />
+    <EffectTutorial />
+    <RefTutorial /> */}
+    <LayoutEffectTutorial />
   </React.StrictMode>
 );
 
